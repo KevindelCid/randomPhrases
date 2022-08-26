@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+.card-container{
+padding: 20px;
+background-color: antiquewhite;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+flex-direction: column;
+gap: 60px;
+border-radius: .5rem;
+max-width: 400px;
+min-width: 400px;
+box-shadow: 5px 6px 23px 7px rgba(0,0,0,0.7);
+-webkit-box-shadow: 5px 6px 23px 7px rgba(0,0,0,0.7);
+-moz-box-shadow: 5px 6px 23px 7px rgba(0,0,0,0.7);
+}
+
+.section-name-button{
+  display: flex;
+  justify-content: flex-end;
+align-items: flex-end;
+flex-direction: column;
+
+}
+
+
+p>i{
+  font-size: 40px;
+ 
+}
+.autor{
+
+  bottom: 20px;
+  right: 20px;
+  
+}
+
+.btn-phrase{
+  border-radius: 100%;
+  padding: 10px 10px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  text-align: center;
+}
